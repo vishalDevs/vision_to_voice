@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Navbar</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="my_page_style.css">
+
+</head>
+<style>
+      
+
+
+  </style>
+
+</style>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">✨ AI Tools</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Team</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+ <!-- header-section -->
+<header class="vision-header">
+    <div class="header-content">
+        <h1>Vision to Voice: A Real-Time AI Narrator</h1>
+        <p>
+            This script uses computer vision and natural language processing to describe scenes
+            from a live webcam, a video file, or a static image in real-time.
+        </p>
+    </div>
+</header>
+
+
+
+
+<!-- Container Section -->
+<div class="container py-5 mt-5">
+  <div class="row g-4">
+    
+    <!-- Video Upload Section -->
+    <div class="col-lg-6 col-md-12">
+      <div class="upload-box">
+        <h2>Upload a Video & See the Magic</h2>
+        <input type="file" id="videoInput" class="form-control" accept="video/*">
+        <video id="videoPreview" controls class="mt-3 d-none">
+          <source src="" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+
+    <!-- Scrollable Content Section -->
+    <div class="col-lg-6 col-md-12">
+      <div class="scroll-box">
+        <h2>Scrollable Content</h2>
+        <p>This content is inside a fixed frame. If it overflows, you can scroll vertically.</p>
+        <p>Keep adding more content...</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>More content here...</p>
+        <p>Even more content...</p>
+        <p>Still more content...</p>
+        <p>Even more lines to demonstrate scrolling...</p>
+        <p>Another line...</p>
+        <p>More scrolling content...</p>
+        <p>End of content...</p>
+      </div>
+    </div>
+
+    
+  </div>
+</div>
+
+<p class="line"></p>
+
+
+<!-- developer details -->
+
+<div class="container py-3 ">
+  <div class="dev-name">My Team Member</div>
+  <div class="row g-5 justify-content-center ">
+    <!-- Card 1 -->
+    <div class="col-lg-4 col-md-6">
+      <div class="card-3d">
+        <img src="F:\project\project\static\A.jpg" alt="Dev 1">
+        <h5 class="card-title">Pushkar Singh</h5>
+        <p class="center">AI / ML Expert</p>
+        <p class="card-text">Full Stack Developer passionate about building robust web applications and solving complex problems.</p>
+        <a href="F:\project\pushkar_portfolio.html"><button class="btn btn-magenta">View Profile</button></a>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col-lg-4 col-md-6">
+      <div class="card-3d">
+        <img src="F:\project\project\static\mypicture.JPG" alt="Dev 2">
+        <h5 class="card-title">Vishal Sharma</h5>
+        <p class="center">Frontend Expert</p>
+        <p class="card-text">Frontend Developer specializing in crafting responsive, user-friendly, and visually stunning interfaces.</p>
+        <a href="portfolio.html"><button class="btn btn-magenta">View Profile</button> </a>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col-lg-4 col-md-6">
+      <div class="card-3d">
+        <img src="F:\project\project\static\1.jpg" alt="Dev 3">
+        <h5 class="card-title">Aashutosh Kumar</h5>
+        <p class="center">Maintenance Expert</p>
+
+        <p class="card-text">Backend Engineer with expertise in scalable architecture and API integrations for enterprise applications.</p>
+        <a href="https://developerashu.netlify.app/"><button class="btn btn-magenta">View Profile</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+<footer class="footer-3d text-white">
+  <div class="container py-5 ">
+    <div class="row gy-4">
+      
+      <!-- About -->
+      <div class="col-lg-4 col-md-6">
+        <div class="footer-box">
+          <h4 class="text-magenta fw-bold">NeuraDev</h4>
+          <p> Where Neural Intelligence Meets Next‑Gen Development.Building Smarter Code for a Smarter Future and Innovation at the Speed of Thought.</p>
+        </div>
+      </div>
+
+      <!-- Links -->
+      <div class="col-lg-4 col-md-6">
+        <div class="footer-box">
+          <h5 class="text-magenta">Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="footer-link">Home</a></li>
+            <li><a href="#" class="footer-link">Projects</a></li>
+            <li><a href="#" class="footer-link">Team</a></li>
+            <li><a href="#" class="footer-link">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Contact / Social -->
+      <div class="col-lg-4 col-md-12">
+        <div class="footer-box">
+          <h5 class="text-magenta">Connect</h5>
+          <p>Email: <a href="mailto:team@devgroup.com" class="footer-link">neuro@devgroup.com</a></p>
+          <div class="social-icons mt-3">
+            <a href="https://github.com/YourProfile" class="social-btn"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-btn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="social-btn"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Bottom -->
+    <div class="text-center mt-5 border-top border-secondary pt-3">
+      <p class="mb-0">&copy; 2025 NeuraDev. Designed with <span class="text-magenta">♥</span> by Developers.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- FontAwesome -->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  // Preview uploaded video
+  document.getElementById('videoInput').addEventListener('change', function () {
+    const file = this.files[0];
+    const video = document.getElementById('videoPreview');
+    if (file) {
+      const url = URL.createObjectURL(file);
+      video.src = url;
+      video.classList.remove('d-none');
+    }
+  });
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
